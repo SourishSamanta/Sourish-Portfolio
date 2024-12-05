@@ -7,8 +7,8 @@ import { projects } from "@/data";
 
 const RecentProjects = () => {
   return (
-    <div className="py-20" id="projects">
-      <h1 className="heading">
+    <section className="pt-52" id="projects">
+      <h1 className="heading mb-16">
         A small selection of{" "}
         <span className="text-violet-500">recent projects</span>
       </h1>
@@ -80,7 +80,7 @@ const RecentProjects = () => {
           </a>
         ))}
       </div>
-    </div>
+    </section>
   );
 };
 
