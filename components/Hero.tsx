@@ -42,7 +42,7 @@ const Hero = () => {
                         Kolkata, West Bengal.
                     </p>
 
-                    <a href="#about">
+                    <a href="#projects">
                         <MagicButton 
                           title="See My Works"
                           icon={<FaLocationArrow />} 
